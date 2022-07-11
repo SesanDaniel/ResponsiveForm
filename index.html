@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
 </head>
 <body>
     <!-- <div class="container"> -->
@@ -16,25 +17,37 @@
         </div>
         <div class="second-flex">
             <button class="btn1"><strong><a href="#">Try it free 7days</strong> then $20/mo. thereafter</a></button>
-            <form class="form-group" action="">
+            <form class="form-group" id="form" action="/">
                 <div class="form-input">
                      <label for="First-Name"></label>
-                        <input class="firstName" type="text" placeholder="First Name">
+                        <input class="firstName" type="text" placeholder="First Name" id="firstName" >
+                        <i class="fas fa-check-circle"></i>
+                         <i class="fas fa-exclamation-circle"></i>
+                         <div><small>Error Message</small></div>
                 </div>
                 <div class="form-input">
                      <label for="Last-Name"></label>
-                         <input class="lastName" type="text" placeholder="Last Name">
-                 </div>
+                         <input class="lastName" type="text" placeholder="Last Name" id="lastName" >
+                         <i class="fas fa-check-circle"></i>
+                         <i class="fas fa-exclamation-circle"></i>
+                         <div><small>Error Message</small></div>
+                </div>
                  <div class="form-input">
                      <label for="Email"></label>
-                         <input class="email" type="email" placeholder="Email Address">
-                 </div>
+                         <input class="email" type="email" placeholder="Email Address" id="email" >
+                         <i class="fas fa-check-circle"></i>
+                         <i class="fas fa-exclamation-circle"></i>
+                         <div><small>Error Message</small></div>                 
+                </div>
                  <div class="form-input">
                      <label for="password"></label>
-                         <input class="password" type="password" placeholder="Password">
-                 </div>
-                 <div class="form-input">
-                     <button class="btn2"><a href="#">CLAIM YOUR FREE TRIAL</a></button>
+                         <input class="password" type="password" placeholder="Password" id="password">
+                         <i class="fas fa-check-circle"></i>
+                         <i class="fas fa-exclamation-circle"></i>
+                         <div><small>Error Message</small></div>       
+                  </div>
+                 <div>
+                     <button class="btn2" id="btn"><a href="#">CLAIM YOUR FREE TRIAL</a></button>
                  </div>
                  <div>  
                     <p class="form-paragraph">By clicking on this button, you are agreeing to our <a href="#">Terms and Conditions</a></p>
@@ -42,6 +55,6 @@
             </form>
         </div>
     <!-- </div> -->
-    
+    <script src="index.js"></script> 
 </body>
 </html>
