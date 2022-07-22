@@ -124,7 +124,6 @@ body {
 	visibility: visible;
 }
 
-
 .firstName {
     width: 300px;
     border-radius: 5px;
@@ -175,7 +174,7 @@ body {
     padding: 10px 20px 10px 20px;
     border: 1px grey solid;
     background-color: hsl(154, 59%, 51%);
-    
+    cursor: pointer;
 }
 
 .btn2 a {

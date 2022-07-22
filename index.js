@@ -10,12 +10,12 @@ form.addEventListener('submit', (e) => {
 
 	inputCheck();
 
-    if(inputCheck === displaySuccess){
-    alert("Thank you! Your free trial is on it's way.... Kindly check your mailbox.")
-    } else {
-        alert('Invalid Input')
-    }
-    console.log(e)
+    // if(inputCheck === displaySuccess){
+    // alert("Thank you! Your free trial is on it's way.... Kindly check your mailbox.")
+    // } else {
+    //     alert('Invalid Input')
+    // }
+    // console.log(e)
 
 });
 
@@ -54,15 +54,15 @@ function inputCheck() {
     }
 }
     
-    const btn  = document.getElementById('btn')
+//     const btn  = document.getElementById('btn')
 
-btn.addEventListener('click', (e) => {
-	e.preventDefault();
+// btn.addEventListener('click', (e) => {
+// 	e.preventDefault();
 
     
-    console.log(e)
+//     console.log(e)
 
-});
+//});
 
 function displayError(input, errorMessage) {
     const formInput = input.parentElement;
